@@ -39,14 +39,18 @@ Expernetic_Assignment/
 │   ├── 02_section3_data_engineering.ipynb
 │   ├── 03_section4_eda.ipynb
 │   └── 04_section6_price_prediction.ipynb
-├── charts/                    # All generated visualizations
-├── data/                      # Raw & processed datasets
-├── reports/
-│   └── final_report.pdf       # Full written report
-├── pipeline.py                # Main data processing pipeline (optional)
-├── requirements.txt
+├── charts/
+│   ├── price_distribution.png
+│   ├── neighbourhood_analysis.png
+│   ├── review_host_analysis.png
+│   ├── availability_analysis.png
+│   ├── review_trends.png
+│   ├── model_comparison.png
+│   ├── feature_importance.png
+│   └── actual_vs_predicted.png
+├── data/
+│   └── (dataset files — download instructions below)
 └── README.md
-text---
 
 ## How to Reproduce
 
