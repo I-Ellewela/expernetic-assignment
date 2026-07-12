@@ -33,6 +33,7 @@ I performed **end-to-end data engineering and analytics** on the Inside Airbnb B
 ---
 
 ## Repository Structure
+
 Expernetic_Assignment/
 ├── notebooks/
 │   ├── 01_section2_dataset_familiarization.ipynb
@@ -99,8 +100,7 @@ Add seasonal features and dynamic pricing simulation
 
 Thank you for reviewing my submission.
 I am available to start from 3rd August 2026 and am flexible for onsite work in Colombo.
-<<<<<<< HEAD
 Looking forward to discussing this project further!
-=======
+
 Looking forward to discussing this project further!
 
