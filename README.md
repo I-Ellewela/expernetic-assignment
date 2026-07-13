@@ -33,20 +33,25 @@ I performed **end-to-end data engineering and analytics** on the Inside Airbnb B
 ---
 
 ## Repository Structure
+
 Expernetic_Assignment/
 ├── notebooks/
 │   ├── 01_section2_dataset_familiarization.ipynb
 │   ├── 02_section3_data_engineering.ipynb
 │   ├── 03_section4_eda.ipynb
 │   └── 04_section6_price_prediction.ipynb
-├── charts/                    # All generated visualizations
-├── data/                      # Raw & processed datasets
-├── reports/
-│   └── final_report.pdf       # Full written report
-├── pipeline.py                # Main data processing pipeline (optional)
-├── requirements.txt
+├── charts/
+│   ├── price_distribution.png
+│   ├── neighbourhood_analysis.png
+│   ├── review_host_analysis.png
+│   ├── availability_analysis.png
+│   ├── review_trends.png
+│   ├── model_comparison.png
+│   ├── feature_importance.png
+│   └── actual_vs_predicted.png
+├── data/
+│   └── (dataset files — download instructions below)
 └── README.md
-text---
 
 ## How to Reproduce
 
@@ -95,8 +100,7 @@ Add seasonal features and dynamic pricing simulation
 
 Thank you for reviewing my submission.
 I am available to start from 3rd August 2026 and am flexible for onsite work in Colombo.
-<<<<<<< HEAD
 Looking forward to discussing this project further!
-=======
+
 Looking forward to discussing this project further!
->>>>>>> f4cd7aed5b72fff71deab39d099f486263f37ea2
+
