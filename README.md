@@ -9,11 +9,7 @@
 
 ## 📄 Start Here
 
-The full write-up — findings, methodology, engineering decisions, business recommendations, and an honest account of what was and wasn't completed — is in:
-
-➡️ **[`Expernetic_Report.pdf`](./Expernetic_Report.pdf)**
-
-Read the report first. It explains the reasoning behind every notebook below.
+Read the notebooks in order (table below) — each one documents its own methodology, decisions, and business interpretation inline. Together they cover dataset familiarization, data engineering, exploratory data analysis, and price-prediction modelling.
 
 ---
 
@@ -21,13 +17,14 @@ Read the report first. It explains the reasoning behind every notebook below.
 
 ```
 .
-├── README.md                                   ← you are here
-├── Expernetic_Report.pdf                       ← full report (start here)
-├── 01_section2_dataset_familiarization_ipynb.ipynb
-├── 02_section3_data_engineering_ipynb.ipynb
-├── 03_section4_eda.ipynb
-├── 04_section6_price_prediction_ipynb.ipynb
-└── data/                                        ← not included, see "Data Setup" below
+├── README.md                                        ← you are here
+├── notebooks/
+│   ├── 01_section2_dataset_familiarization_ipynb.ipynb
+│   ├── 02_section3_data_engineering_ipynb.ipynb
+│   ├── 03_section4_eda.ipynb
+│   └── 04_section6_price_prediction_ipynb.ipynb
+├── charts/                                          ← exported figures from the notebooks
+└── data/                                            ← not included, see "Data Setup" below
 ```
 
 ## 📓 Notebooks — What Each One Does and In What Order to Review Them
@@ -45,7 +42,7 @@ Per the assignment's own design philosophy ("a candidate who completes two secti
 
 **Not attempted:** §3.4–3.6 (dimensional modelling, pipeline automation, cloud-native topics), §5 (formal hypothesis testing), §6.2–6.4 (forecasting, clustering, bias testing), §7 (NLP/LLM/agentic work), §8 (Open Innovation Challenge).
 
-Full rationale, trade-offs, and a concrete plan for completing the remaining sections are in **Sections 13–15 of the report.**
+Rationale and trade-offs for each are documented inline in the relevant notebooks.
 
 ## 🛠️ Setup & Reproducibility
 
@@ -89,10 +86,6 @@ or, if the `jupyter` command isn't on your PATH:
 python -m notebook
 ```
 
-## 🤖 AI Usage Disclosure
-
-Full disclosure of AI tool usage (what was used, which sections were AI-assisted, and how outputs were validated) is in **Appendix A of the report**, per Section 10.1 of the assignment brief.
-
 ## 📊 Headline Findings
 
 - **28,204** cleaned listings analyzed (from 31,069 raw)
@@ -101,4 +94,4 @@ Full disclosure of AI tool usage (what was used, which sections were AI-assisted
 - Best price-prediction model: **Random Forest**, R² = **0.664**, MAE = **฿551**
 - Superhosts (35.6% of listings) command a measurable price premium and materially higher review volume/scores
 
-See the report's Executive Summary for the full list.
+See each notebook's summary cells for the full breakdown.
